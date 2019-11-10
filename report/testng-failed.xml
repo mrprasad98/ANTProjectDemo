@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="pack.Amazon"/>
+      <class name="pack.Facebook"/>
+      <class name="pack.Flipkart"/>
+      <class name="pack.Google"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="pack.Facebook">
+        <methods>
+          <include name="login2"/>
+        </methods>
+      </class> <!-- pack.Facebook -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
